@@ -8,7 +8,8 @@
     "start": "node server.js",
     "lite-server": "lite-server",
     "devstart": "node -r dotenv/config server.js",
-    "watch": "nodemon -r dotenv/config server.js"
+    "watch": "nodemon -r dotenv/config server.js",
+    "generateSW": "workbox generateSW workbox-config.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,12 @@
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1",
     "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "workbox": "^0.0.0",
+    "workbox-cli": "^6.0.2",
+    "workbox-precaching": "^6.0.2",
+    "workbox-routing": "^6.0.2",
+    "workbox-sw": "^6.0.2"
   }
 }
