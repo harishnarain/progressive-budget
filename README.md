@@ -69,7 +69,7 @@ Pull requests are welcome
 
 **Home Page**
 
-![Screenshot](https://github.com/harishnarain/progressive-budget/blob/master/Screenshot.png?raw=true)
+![Screenshot](https://github.com/harishnarain/progressive-budget/blob/master/Screenshot.PNG?raw=true)
 
 ## Questions
 
