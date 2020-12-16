@@ -4,15 +4,6 @@
 
 For this assignment, the app is a progress budget tracker. The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
-Offline Functionality:
-
-- Enter deposits offline
-- Enter expenses offline
-
-When brought back online:
-
-- Offline entries should be added to tracker.
-
 ## Table of Contents
 
 - [Progressive Budget - Yet another budget tracker](#progressive-budget---yet-another-budget-tracker)
@@ -46,8 +37,8 @@ When brought back online:
 ## Usage
 
 1. Run `npm start` to start the application
-2. Enter a name for the trasaction and the transaction amount.
-3. Click +Add Funds or -Subtract Funds depending on the nature of the transaction
+2. Enter a name for the transaction and the transaction amount.
+3. Click "+Add Funds" or "-Subtract Funds" depending on the nature of the transaction
 
 A demo of the application is available at: https://vast-plateau-45872.herokuapp.com/
 
